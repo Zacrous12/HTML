@@ -21,8 +21,13 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+html {
+  font-size: 62.5%;
+}
 
+a {
+  text-decoration: none;
+  color: #2E3192;
 }
 
 
@@ -40,3 +45,173 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.first, .second, .third, .fourth, .fifth {
+  display: flex;
+  font-size: 1.5rem;
+  width: 100%;  
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 80rem;
+  border: .5rem solid black;
+}
+
+.headin {
+  display: flex;
+  justify-content: flex-end;
+  height: 5%;
+  font-size: 2rem;
+}
+.title {
+  font-size: 8rem;
+  margin-bottom: 2rem;
+}
+
+.first {
+  padding: 0 0 15rem 20rem;
+  align-items: flex-start;
+  background-image: url("https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg");
+}
+form {
+  width: 100rem;
+  height: 4rem;
+  display: inline-flex;
+}
+input {
+  height: 4rem;
+  width: 45rem;
+  font-size: 2.6rem;
+}
+button {
+  height: 4rem;
+  width: 12rem;
+  background-color: #2E3192;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  padding-top: 3rem;
+  flex-direction: row;
+  width: 34rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  color: #2E3192;
+}
+.icon {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.icon + a {
+  margin-right: 5rem;
+}
+
+.second {
+  padding-left: 90rem;
+  align-items: flex-start;
+  padding-right: 30rem;
+}
+
+.title-second {
+  font-size: 6.5rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+.third {
+  justify-content: flex-start;
+  background-color: rgb(230, 230, 230);
+}
+.third > .smallText {
+  margin-top: 8rem;
+}
+
+h5 {
+  font-size: 7rem;
+  margin: 2rem;
+}
+.categories {
+  width: 40%;
+  padding: 1rem 3rem 1rem 3rem;
+  list-style-type: none;
+  font-size: 2rem;
+}
+.buy, .sell, .rent, .agents, .offices {
+  border-bottom: .1rem solid gray;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  border-collapse: collapse;
+  line-height: 5rem;
+}
+
+.buy:hover, .sell:hover, .rent:hover, .agents:hover, .offices:hover {
+  border-color: #2E3192;
+  border-width: .2rem;
+  color: #2E3192;
+  font-weight: 600;
+}
+
+.categories, .listings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listings > section {
+  width: 20%;
+  padding: 8rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.6rem;
+  height: 30rem;
+  line-height: 4rem;
+  visibility: visible;
+  background-image: url("https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1600");
+}
+
+.listings > section:hover {
+  visibility: visible;
+  background-blend-mode: rgba(128, 128, 128, 0.466);
+}
+
+.listings button {
+  font-size: 1.6rem;
+  line-height: 4rem;
+}
+
+.fourth {
+  font-size: 2rem;
+}
+.fourth-title {
+  font-size: 7rem;
+}
+.fifth {
+  justify-content: flex-start;
+}
+
+.fifth-title {
+  font-size: 7rem;
+  margin: 2rem;
+}
+.fifth > .smallText {
+  padding-top: 8rem;
+}
+
+
+.headin > ul > a {
+  padding: 2rem;
+}
+
+.lefty {
+  margin-right: 9rem;
+}
+
+.smallText {
+  font-size: 2rem;
+  color: #2E3192;
+}
